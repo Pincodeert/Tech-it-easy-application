@@ -19,12 +19,12 @@ public class TelevisionController {
 
     @PostMapping(value = "/televisions")
     public ResponseEntity<Object> addTelevision(Television television){
-        ResponseEntity.created();
+        return ResponseEntity.created();
     }
 
     @PutMapping(value = "televisions/{id}")
     public ResponseEntity<Object> replaceTelevision(int id, Television television){
-        ResponseEntity.noContent().build();
+        return ResponseEntity.noContent().build();
     }
 
     @DeleteMapping(value = "/televisions/{id}")
