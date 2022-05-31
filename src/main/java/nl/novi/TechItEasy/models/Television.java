@@ -1,9 +1,9 @@
 package nl.novi.TechItEasy.models;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table (name = "televisions")
 public class Television {
 
     @Id
