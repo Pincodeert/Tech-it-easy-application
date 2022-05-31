@@ -1,5 +1,6 @@
 package nl.novi.TechItEasy.controllers;
 
+import nl.novi.TechItEasy.models.Television;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
